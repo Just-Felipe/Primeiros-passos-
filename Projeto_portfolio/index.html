@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <meta lang="pt-BR" />
-
-<html>
+<html class="">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +18,12 @@
   <body>
     <div id="container">
       <div id="profile">
-        <img src="./assets/assets/Avatar-Felipe.png" alt="Foto de Felipe" />
+        <img src="./assets/Avatar-Felipe.png" alt="Foto de Felipe" />
         <p>@FelipeBilac</p>
+        <div id="switch" onclick="toggleMode()">
+          <br><button></button>
+          <span></span>
+        </div>
         <br /><br />
         <ul>
           <li>
@@ -35,9 +38,6 @@
             <li>
             <a href="https://github.com/Just-Felipe" target="_blank">Github</a>
           </li>
-          </li>
-          <li>
-            <a href="#" target="_blank">Verificar meu portfólio</a>
           </li>
         </ul>
         <div id="social-links">
@@ -71,5 +71,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
